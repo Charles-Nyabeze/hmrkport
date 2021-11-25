@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Top Nav Bar*/
+
+.accrosstop{
+    max-width: 2000px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.navagation{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 999;
+    background: white;
+}
+
+.navagation .accrosstop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navagation .logo a{
+    font-size: 40px;
+    color: crimson;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navagation .logo a:hover{
+    color: white;
+}
+
+.navagation .crossmenu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: crimson;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navagation .crossmenu li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* HOME CONTENT*/
+
+.home{
+    display:flex;
+    background: url("Downloads/hmwrkbg.jpg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    color: cornsilk;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home .accrosstop{
+    margin: auto 0 auto 40px;
+}
+
+.home .content .text1{
+    font-size: 30px;
+}
+
+.home .content .text2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .content .text3{
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+.home .content .text3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+/*similar styles*/
+
+section{
+    padding: 100px 0;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+section .title::before{
+    content:"";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: black;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+    
+}
+
+section .title::after{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    color: rgba(255, 255, 0, 0.801);
+    padding:5px;
+    font-size: 18px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    
+}
+/* ABOUT CONTENT */
+
+.aboutme .projects{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutme .title::after{
+    content:"this is me";
+}
+
+.aboutme .aboutcontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme .aboutcontent .leftcolumn{
+    width: 45%;
+}
+
+.aboutme .aboutcontent .leftcolumn img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.aboutme .aboutcontent .rightcolumn{
+    width: 55%;
+}
+
+.aboutme .aboutcontent .rightcolumn .text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.aboutme .aboutcontent .rightcolumn p{
+    font-size: 27px;
+}
+
+/* My Projects */
+
+.projects{
+    background: gray;
+    color: white;
+}
+
+
+.projects .projectscontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.projects .title::before{
+    background: white;
+}
+
+.projects .title::after{
+    content:"what im doing";
+    background: grey;
+}
+
+.projects .projectscontent .card{
+    font-family: 'Open Sans', sans-serif;
+    width: calc(33% - 20px);
+    text-align: center;
+    background: black;
+    border-radius: 6px;
+    padding: 25px 25px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.projects .projectscontent .card .box{
+    transition: all 0.3s ease;
+}
+
+.projects .projectscontent .card:hover{
+    background: white;
+}
+
+.projects .projectscontent .card:hover .box{
+    transform: scale(1.05);
+}
+
+.projects .projectscontent .card .box p:hover{
+    color: yellow;
+}
+
+.projects .projectscontent .card .text{
+    font-size: 30px;
+    font-weight: 700;
+    margin:10px 0 30px;
+    color: yellow;
+}
+
+/* Contact Section */
+
+.contact .title::after{
+    content: "get in touch";
+}
+
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contact .contactcontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contactcontent .row{
+    width: calc(20% - 30px);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: black;
+    border-radius: 6px;
+    padding: 25px 25px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.contact .contactcontent .text{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact .contactcontent .info .head{
+    font-weight: 700;
+    font-size:20px;
+    text-align: center;
+    color:yellow;
+}
+
+.contact .contactcontent .info .subhead{
+    color: black;
+    text-align: center;
+}
