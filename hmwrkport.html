@@ -11,137 +11,166 @@
 
     <!--Nav Bar Section-->
 
-    <nav class="navagation">
-        <div class="accrosstop">
-            <div class="logo"><a href="#">Portfolio</a></div>
-                <ul class="crossmenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Skills</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-        </div>
-    </nav>
+<!--The HEADER-->
+
+<header>
+    <h1> <a href="#">My Portfolio</a></h1>
+        <nav>
+            <ul>
+                <li>
+                <a href="#aboutme">About Me</a>
+                </li>
+                <li>
+                <a href="#projects">My Projects</a>
+                </li>
+                <li>
+                <a href="#reach-out">Let's Talk</a>
+                </li>
+            </ul>
+        </nav>
+  </header>
+
+  <!--The HEADER End-->
     
     <!--HOME Section-->
 
-    <section class="home">
-        <div class="accrosstop">
-            <div class="content">
-
-                <div class="text1">Hey there! My name is</div>
-                <div class="text2">Charles Nyabeze</div>
-                <div class="text3">I am a <span>2x Co-Founder</span> of Web3 apps, and a <span>Marketing Specialist.</span></div>
-           
-            </div>
+    <section class="hero">
+        <div class="hero-cta">
+        <h2>Charles N. Nyabeze</h2>
+        <p>
+        Hey I'm Charles, 2x Co-Founder and I love cryto, investing, and Web3.
+        </p>
         </div>
     </section>
 
+    <!--HOME Section End-->
+
     <!--About Me Section-->
 
-    <section class="aboutme">
+    <section id="aboutme" class="aboutme">
         <div class="accrosstop">
-            <h2 class="title">About Me</h2>
-            <div class="aboutcontent">
-                <div class="leftcolumn">
-                    <img src="https://bitperks.net/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2F8feddb21-9d9a-4d5d-81c1-fe9d02f7fe93_image_1_png.png&w=256&q=75" alt="">
-                </div>
-                <div class="rightcolumn">
-                    <div class=text>Hey I'm Charles N. Nyabeze and here is a little about me!</div> <br>
+            <h2 class="title">
+                About Me
+            </h2>
+                <div class="aboutcontent">
+
+                    <article class="leftcolumn">
+                        <div>
+                            <img src="https://bitperks.net/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2F8feddb21-9d9a-4d5d-81c1-fe9d02f7fe93_image_1_png.png&w=256&q=75" alt="">
+                        </div>
+                    </article>
+
+                    <article class="rightcolumn">
+                        <div>
+                    <div>
+                        <h2>Hey I'm Charles N. Nyabeze and here is a little about me!</h2>
+                    </div> <br>
                     <p>I'm Charles, I am 17yrs old, I live in Sudbury ON. I am currently pursuing a certification in Full-Stack Web Development at Carleton U. <br><br>
 
-                        I'm an experienced Digital Marketer, Community Leader, and Founder. My overall goal is to acquire new skills and assist in making a better future for all through the use of tech & blockchains.</p>                   
+                        I'm an experienced Digital Marketer, Community Leader, and Founder. My overall goal is to acquire new skills and assist in making a better future for all through the use of tech & blockchains.
+                    </p>                   
+                        </div>
+                    </article>
+
                 </div>
-            </div>
         </div>
     </section>
 
     <!--Projects Section-->
-
-    <section class="projects">
-        <div class="accrosstop">
-            <h2 class="title">My Projects</h2>
-
-            <div class="projectscontent">
-
-                <div class="card">
-                    <div class="box">
-                        <div class="text">BitPerks</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae. Adipisci, rerum. Corrupti consectetur odio rem obcaecati tempora quod! Est?</p>
-
-                    </div>
+    <section id="projects" class="projectmain">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                My Projects
+            </h2>
+        </div>
+          
+         <div class="projects">
+            <article class="project">
+                <img src="assests/images/whiteb.png" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="project-bio">
+                    <h3 class="project-name">BitPerks</h3>
+                    <h4 class="project-role">Saas Platform for Monetization</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
                 </div>
-
-                <div class="card">
-                    <div class="box">
-                        <div class="text">BlockPerks</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae. Adipisci, rerum. Corrupti consectetur odio rem obcaecati tempora quod! Est?</p>
-
-                    </div>
+            </article>
+          
+            <article class="project">
+                <img src="assests/images/blogpc.png" alt="Blog Logo" />
+                <div class="project-bio">
+                    <h3 class="project-name">My Blog</h3>
+                    <h4 class="project-role">Teaching Youth Different Subjects</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
                 </div>
-
-                <div class="card">
-                    <div class="box">
-                        <div class="text">Inner Circle</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae. Adipisci, rerum. Corrupti consectetur odio rem obcaecati tempora quod! Est?</p>
-                    </div>
+            </article>
+          
+            <article class="project">
+                <img src="assests/images/innercircle.png" alt="Inner Circle" />
+                <div class="project-bio">
+                    <h3 class="project-name">Inner Circle</h3>
+                      <h4 class="project-role">High-Achievers Group</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
                 </div>
-                             
-            </div>
-            
-        </div>    
+            </article>
+        </div>
     </section>
+    
 
     <!--contact me part-->
 
-    <section class="contact">
-        <div class="accrosstop">
-            <h2 class="title">Contact Me</h2>
-            <div class="column left">
-                <div class="contactcontent">
-
-                    <div class="row">
-                        <div class="info">
-                            <div class="head">Let's Talk!</div>
-                                <div class="subhead">So now that you know who I am lets talk about you! You seem really cool and, I just cant wait to connect and meet with you!</div>
-                        </div>
-                    </div>
-                    
-
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Name</div>
-                                    <div class="subhead">Charles Nyabeze</div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Email</div>
-                                    <div class="subhead">charlesnnyabeze@gmail.com</div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">LinkedIn</div>
-                                    <div class="subhead"><a href="https://www.linkedin.com/in/charles-nyabeze/">Charles1</a></div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Twitter</div>
-                                    <div class="subhead">Charles Nyabeze</div>
-                            </div>
-                        </div>
-
-
-                 </div>
-            </div>
+    <section id="reach-out" class="contact">
+        <div class="flex-row">
+          <h2 class="section-title secondary-border">
+            Reach Out
+          </h2>
         </div>
-    </section>
+  
+        <div class="contact-info">
+          <div>
+            <h3>Charles N. Nyabeze</h3>
+            <p>
+              Any questions for me? 
+              <br/>
+              Let me know, can't wait to talk!
+            </p>
+  
+            <address>
+              90 Brian Street <br/>
+              Sudbury, ON <br/>
+              P3T1A9<br/>
+              P: 704-CHA-RLES (705.618.1222)<br/>
+              E: <a href="mailto:charlesnnyabeze@gmail.com">charlesnnyabeze@gmail.com</a>
+            </address>
+            
+          </div>
+  
+          <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form>
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" placeholder="Your Name" />
+          
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Message"></textarea>
+          
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+            frameborder="0" style="border:0" allowfullscreen>
+          </iframe>
+        </div>
+    
+<!--The Footer-->
 
+<footer>
+    <h2> Made with love by Charles. ❤️ </h2>
+        <div>
+            <a href="./privacy-policy.html">Read Our Privacy Policy</a><br/>
+             <a>&copy; 2019 Run Buddy, Inc.</a>
+        </div>
+</footer>
 
 </body>
 </html>
